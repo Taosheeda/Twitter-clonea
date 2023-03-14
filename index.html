@@ -1,1 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter's clone</title>
+    <!-- Bootstrap StylesSheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
+    <!-- CSS StylesSheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- fontsawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;400;900&family=Sacramento&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="landing-page">
+      <section class="navbar-section home">
+          <div class="nav-home">
+                <div class="">
+                  <a href="#">
+                    <i class="fa-brands fa-twitter fa-2x nav-icon"></i>
+                  </a>
+                </div>
+                <div class="nav-link">
+                  <a href="#">
+                    <i class="fa-sharp fa-solid fa-house nav-icon"></i>
+                    <em>Home</em>
+                  </a>
+                </div>
+
+                <div class="nav-link">
+                  <a href="#">
+                    <i class="fa-regular fa-hashtag nav-icon"></i>
+                    <em> Explore</em>
+                  </a>
+                </div>
+                <div class="nav-link">
+                  <a href="#">
+                    <i class="fa-sharp fa-regular fa-bell nav-icon"></i>
+                    <em> Notification</em>
+                  </a>
+                </div>
+                <div class="nav-link">
+                  <a href="#">
+                    <i class="fa-regular fa-envelope nav-icon"></i>
+                    <em>Messages</em>
+                  </a>
+
+                </div>
+                <div class="nav-link">
+                  <a href="#">
+                    <i class="fa-regular fa-bookmark nav-icon"></i>
+                    <em>Bookmarks</em>
+                  </a>
+                </div>
+                <div class="nav-link">
+                  <a href="#">
+                    <i class="fa-sharp fa-solid fa-b nav-icon"></i>
+                    <em>Twitter Blue</em>
+                  </a>
+
+                </div>
+                <div class="nav-link">
+                  <a href="#">
+                      <i class="fa-regular fa-user nav-icon"></i>
+                      <em> profile</em>
+                  </a>
+                </div>
+                <div class="nav-link">
+                  <a href="#">
+                    <i class="fa-solid fa-ellipsis nav-icon"></i>
+                    <em>More</em>
+                  </a>
+                </div>
+                <div class="nav-tweet">
+                  <button class="btn btn-lg nav-button" type="button" name="button">Tweet</button>
+                </div>
+                <div class="pics">
+                        <a href="#">
+                          <img class="nav-pic" src="flex.jpg" alt="">
+                          <div class="nav-tex">
+                            <h6>
+                              Raheem Taofeek...
+                            </h6>
+                            <span>@TAOSHEEDA GR...</span>
+                            <em>
+                              <strong>...</strong>
+                            </em>
+                          </div>
+                        </a>
+                </div>
+          </div>
+      </section>
+
+      <!-- HOME SECTION -->
+      <section class="home-section home">
+          <div class="top-space">
+              <h4>Home</h4>
+              <nav class="top-nav">
+                <ul class="topper">
+                  <li>
+                    <a href="#"><h6>For you</h6></a>
+                  </li>
+                  <li>
+                    <a href="#"><h6>Following</h6></a>
+                  </li>
+                </ul>
+              </nav>
+          </div>
+          <!-- happening section -->
+          <div class="happening">
+            <a href="#">
+              <img class="happ-img" src="flex.jpg" alt="">
+            </a>
+            <em>What's happening?</em>
+            <section class="happ-icon">
+              <div class="awe">
+                <a href="#">
+                  <i class="fa-regular fa-image cdn"></i>
+                  <i class="fa-solid fa-bars-progress cdn"></i>
+                  <i class="fa-regular fa-face-grin-wide cdn"></i>
+                  <i class="fa-regular fa-calendar cdn"></i>
+                  <i class="fa-sharp fa-solid fa-location-dot cdn"></i>
+                </a>
+              </div>
+              <div class="happ-tweet">
+                <button class="btn btn-lg" type="button" name="button">tweet</button>
+              </div>
+            </section>
+          </div>
+
+          <!-- Tweet 1 section -->
+          <div class="tweet-1 flex-item">
+            <a href="#">
+              <img src="payoneer.jpg" alt="">
+            </a>
+            <a class="tweet1-text" href="#">
+              <h6><strong>Payoneer</strong> <i class="fa-solid fa-circle-check"></i> @Payoneer. 9m<em>...</em></h6>
+              <p><span>#WomensHistoryMonth:</span> what female-owned businesses are you grateful for? 🔥</p>
+            </a>
+            <a class="tweet-nav" href="#">
+              <i class="fa-sharp fa-regular fa-comment tweet-nav1"><em>10</em></i>
+              <i class="fa-solid fa-retweet tweet-nav1"><em>50</em></i>
+              <i class="fa-regular fa-heart tweet-nav1"><em>67</em></i>
+              <i class="fa-solid fa-chart-simple tweet-nav1"><em>35</em></i>
+              <i class="fa-solid fa-arrow-up-from-bracket tweet-nav1"><em>15</em></i>
+            </a>
+          </div>
+          <!-- TWEET 2 SECTION -->
+          <div class="tweet-2 flex-item">
+                <a href="#">
+                    <img src="flex.2.jpg" alt="">
+                </a>
+                <a class="tweet2-text" href="#">
+                  <h6><strong>Abiodun A. Adeleke👨🏽‍💻</strong>@iamAbiodunAA· 2h<em>...</em></h6>
+                  <p>According to how Nigerian politics goes:</p>
+                  <p>Tinubu won the election, even tho na by rigging, he’d probably win the next election too as the incumbent.</p>
+                  <p> APC would want to return the favor and power back to the north.</p>
+                  <p>That’s total of 16 years in total. I will be 44 years by then 😳</p>
+                </a>
+                <a class="tweet-nav" href="#">
+                  <i class="fa-sharp fa-regular fa-comment tweet-nav1"><em>1</em></i>
+                  <i class="fa-solid fa-retweet tweet-nav1"><em>20</em></i>
+                  <i class="fa-regular fa-heart tweet-nav1"><em>54</em></i>
+                  <i class="fa-solid fa-chart-simple tweet-nav1"><em>25</em></i>
+                  <i class="fa-solid fa-arrow-up-from-bracket tweet-nav1"><em>8</em></i>
+                </a>
+          </div>
+
+          <!-- TWEET 3 SECTION -->
+          <div class="tweet-3 flex-item">
+            <a href="#">
+              <img src="deola.jpg" alt="">
+            </a>
+            <a class="tweet3-text" href="#">
+                <h6><strong>Adéọlá ọmọ Adéyẹmí</strong>@Ijesha_canadian· 56m<em>...</em></h6>
+                <p>Japa is trending already. The sad part is that majority can't even afford it.</p>
+                <p>Whatever pathway you want to choose, Japa is not cheap.</p>
+                <p>So I just laugh with sadness when I see Japa proliferating the timeline as if it’s the solution.</p>
+                <p>A poor man can’t Japa, here is why👇🏿</p>
+            </a>
+            <a class="tweet-nav" href="#">
+              <i class="fa-sharp fa-regular fa-comment tweet-nav1"><em>2</em></i>
+              <i class="fa-solid fa-retweet tweet-nav1"><em>2</em></i>
+              <i class="fa-regular fa-heart tweet-nav1"><em>14</em></i>
+              <i class="fa-solid fa-chart-simple tweet-nav1"><em>1,857</em></i>
+              <i class="fa-solid fa-arrow-up-from-bracket tweet-nav1"><em></em></i>
+            </a>
+          </div>
+
+          <!-- TWEET 4 SECTION -->
+          <div class="tweet-4 flex-item">
+            <a href="#">
+                <img src="muyiwa.jpg" alt="">
+            </a>
+            <a class="tweet4-text " href="#">
+               <h6><strong>Olumuyiwa Igbalajobi, Ph.D</strong> <i class="fa-solid fa-circle-check"></i> @Olumuyiwaayo · 1m<em>...</em></h6>
+               <p>For the 2023/2024 award, applications will be limited to PTDF partner universities in the United Kingdom, Germany, France, and Malaysia</p>
+            </a>
+            <a class="muyi-pics" href="#">
+                <img src="ptdf.jpg" alt="">
+            </a>
+            <a class="tweet-nav" href="#">
+                <i class="fa-sharp fa-regular fa-comment tweet-nav1"><em></em></i>
+                <i class="fa-solid fa-retweet tweet-nav1"><em></em></i>
+                <i class="fa-regular fa-heart tweet-nav1"><em>29</em></i>
+                <i class="fa-solid fa-chart-simple tweet-nav1"><em>3,776</em></i>
+                <i class="fa-solid fa-arrow-up-from-bracket tweet-nav1"><em></em></i>
+            </a>
+          </div>
+        </section>
+
+    <!-- TREND SECTION -->
+        <section class="trend-section home">
+            <div class="box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search Twitter">
+            </div>
+          <div class="right-sidebar">
+            <h4>Trends for you</h4>
+            <div class="sidebar-text">
+                <a class="trends" href="#">
+                  <article>Trending<em><i class="fa-solid fa-ellipsis"></i></em></article>
+                  <article style="color:black;"><strong>Ambode</strong></article>
+                  <article>1,400 Tweets</article>
+                </a>
+                <br>
+                <a class="trends" href="#">
+                  <article>Trending<em><i class="fa-solid fa-ellipsis"></i></em></article>
+                  <article style="color:black;"><strong>#SoftwareEngineer</strong></article>
+                  <article>1,474 Tweets</article>
+                </a>
+                <br>
+                <a class="trends" href="#">
+                  <article>Trending<em><i class="fa-solid fa-ellipsis"></i></em></article>
+                  <article style="color:black;"><strong>Mahmoud Yakubu</strong></article>
+                  <article>4,567 Tweets</article>
+                </a>
+                <br>
+                <a class="trends" href="#">
+                  <article>Trending<em><i class="fa-solid fa-ellipsis"></i></em></article>
+                  <article style="color:black;"><strong>Agbero</strong></article>
+                  <article>4,779 Tweets</article>
+                </a>
+                <br>
+                <a class="trends" href="#">
+                  <article>Trending<em><i class="fa-solid fa-ellipsis"></i></em></article>
+                  <article style="color:black;"><strong>PDP and LP</strong></article>
+                  <article>33.3K Tweets</article>
+                </a>
+                <br>
+                <a class="trends" href="#">
+                  <article>Trending<em><i class="fa-solid fa-ellipsis"></i></em></article>
+                  <article style="color:black;"><strong>Enugu</strong></article>
+                  <article>37.3K Tweets</article>
+                </a>
+                <br>
+                <a class="trends" href="#">
+                  <article>Trending<em><i class="fa-solid fa-ellipsis"></i></em></article>
+                  <article style="color:black;"><strong>WhatsApp</strong></article>
+                  <article>225K Tweets</article>
+                </a>
+                <br>
+                <a class="trends" href="#">
+                  <article>Trending<em><i class="fa-solid fa-ellipsis"></i></em></article>
+                  <article style="color:black;"><strong>Seyi Makinde</strong></article>
+                  <article>10.9K Tweets</article>
+                </a>
+                <br>
+            </div>
+          </div>
+          <!-- WHO TO FOLLOW -->
+          <div class="follow">
+            <h4>Who to follow</h4>
+            <a href="#">
+              <img src="yadav.jpg" alt="">
+              <article style="color:black;"><strong>Swastika Yadav🥑<i class="fa-solid fa-circle-check"></i></strong><em> <button type="button" name="button">follow</button></em></article>
+              <article class="">@swastika0015</article>
+            </a>
+            <br>
+            <a href="#">
+              <img src="danny.jpg" alt="">
+              <article style="color:black;"><strong>Danny Thompson <i class="fa-solid fa-circle-check"></i></strong><em> <button type="button" name="button">follow</button></em></article>
+              <article class="">@DThompsonDev</article>
+            </a>
+            <br>
+            <a href="#">
+              <img src="roman.jpg" alt="">
+              <article style="color:black;"><strong>Rowan University <i class="fa-solid fa-circle-check"></i></strong><em> <button type="button" name="button">follow</button></em></article>
+              <article>Rowan University</article>
+            </a>
+          </div>
+        </section>
+
+    </header>
+
+
+
+  </body>
+</html>
